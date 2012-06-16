@@ -19,40 +19,15 @@
   <icon src="icon.png" gap:role="default" />
   <!--icons -->
   
-        <!-- webos -->
-        <icon src="icons/webos/icon.png" gap:platform="webos" />
-        <icon src="icons/webos/miniicon.png" gap:platform="webos" gap:role="mini" />
-        <!-- iphone -->
-        <icon src="icons/ios/icon.png" width="57" height="57" />
-        <icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
-        <icon src="icons/ios/icon_at_2x.png" width="114" height="114" />
-        <!-- andriod -->
-        <icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
-        <icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
-        <icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
         <!-- bb -->
         <icon src="icons/bb/icon.png" gap:platform="blackberry" />
-        
-  
-  
-  
   <!--icons end -->
   
   
   <!--Splash screens -->
   
-        <!-- iphone -->
-        <gap:splash src="splash.png" />
-        <gap:splash src="splash/ios/Default.png" width="320" height="480" />
-        <gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" />        
-        <gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" />
         <!-- blackberry -->
         <gap:splash src="splash/bb/splash.png" gap:platform="blackberry" />
-        <!-- andriod -->
-        <gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
-        <gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
-        <gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
-        
  
   <!--Splash ends-->
 
