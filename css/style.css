@@ -3,7 +3,7 @@
 /*
 Theme Name: Kids2prosports
 Theme URI: http://www.kids2prosports.com
-Author: 2bvision
+Author: putITout
 Author URI: http://www.2bvision.com/
 Description:kids2prosports 2012
 Version: 2012
@@ -58,7 +58,6 @@ a:hover {
     text-decoration: none;
 }
 
-/* clear fix */
 .clearfix:after {
     clear: both;
     content: " ";
@@ -76,7 +75,6 @@ a:hover {
 * html .clearfix {
     height: 1%;
 }
-/* ----- end ------ */
 .clear {
     clear: both;
 }
@@ -144,12 +142,12 @@ em {
 #wraper {
     width: 100%; margin:0 auto;
 }
-#outerBg { background:#861c1c url(../images/bgimg.jpg) no-repeat center top; margin:0 auto; min-height:420px;}
+#outerBg { margin:0 auto; min-height:420px;}
 .logoMain { height:91px; width: 227px; margin:0 auto;}
 .logoMain a {
 	background:url(../images/logo2.png) no-repeat left top;
 	height: 91px; width: 227px; overflow: hidden; display:block; }
-#outerBg p{ color:#ffffff; text-align:center;}
+#outerBg p{ color:#000000; text-align:center;}
 .guest {margin:20px auto 5px auto; width:172px;}
 .guest a { background:url(../images/guest.png) no-repeat left top; padding:0 86px; font-size: 12px; list-style-type:none; text-decoration:none; width:172px;  display:block; height:30px;}
 .login {margin:0 auto; text-align:center;}
@@ -161,7 +159,7 @@ a#regg {background:url(../images/register.png) no-repeat left top; font-size: 12
 			 margin:20px auto;  text-align:center; 
 }
 
-#navtabs a#thire {background:url(../images/tabBg.png) no-repeat left top; font-size: 12px; list-style-type:none; text-decoration:none;  color:#333333; display:inline-block;  margin:0 2px 2px 2px; width:116px; height:34px; line-height:34px;
+#navtabs a#thire {background:url(../images/tabBg.JPG) no-repeat left top; font-size: 12px; list-style-type:none; text-decoration:none;  color:#ffffff; display:inline-block;  margin:0 2px 2px 2px; width:116px; height:34px; line-height:34px;
 }
 
 /* header starts */
@@ -295,9 +293,6 @@ nav li a:hover {
 nav li:hover { background:#6f0505; height:53px;}
 /* Nav ends */
 
-#divLefColoumn { width:75%;}
-#divRightAdds { width:20%;}
-
 /* container starts */
 .contetns {
 	padding:10px 10px 10px 10px;
@@ -426,13 +421,12 @@ nav li:hover { background:#6f0505; height:53px;}
 .loginTabs a, .loginTabs a:visited { float:left; display:block; width:130px; height:31px; font-size: 11px;  line-height:31px; background:url(../images/tabs.png) no-repeat left top; color:#333; text-decoration:none; text-transform:uppercase; text-align:center; font-weight:bold; }
 
 .loginTabs a.blue, .loginTabs a.blue:visited { float:left; display:block; width:130px; font-size: 11px; height:31px; line-height:31px; background: url(../images/tabs.png) no-repeat 0 -31px; color:#8b0017; text-decoration:none; text-transform:uppercase; text-align:center; font-weight:bold; }
-.loginWrap label { width:73px;  
-float:left; font-weight:bold; color:#333; font-size: 11px; }
+.loginWrap label { width:103px;  float:left; font-weight:bold; color:#333; font-size: 11px; }
 .loginArea table td{ padding:0 2px; }
-input[type="submit"], input[type="button"], .btn {border:1px solid #00531b; color:#ffffff; padding:5px 10px; font-weight:normal; background:url(../images/bg_top.gif) repeat-x 0 -12px; }
+input[type="submit"], input[type="button"], .btn {border:1px solid #00531b; color:#ffffff; padding:5px 10px; font-weight:bold; background:url(../images/bg_top.gif) repeat-x 0 -12px; }
 .loginWrap input[type="text"]{ border:1px solid #cccccc; font-size:11px; padding:2px; width:177px; }
 .loginWrap .inputBox, select { border:1px solid #cccccc; font-size:11px; padding:2px; width:177px; margin:0 0 5px 0 }
-.loginWrap input[type="password"] {  border:1px solid #cccccc; font-size:11px; padding:2px; width:177px; }
+.loginWrap input[type="password"] {  float:right; border:1px solid #cccccc; font-size:11px; padding:2px; width:177px; }
 .loginWrap textarea { border:1px solid #cccccc; font-size:11px; padding:2px;  overflow:auto; width:177px; float:right; margin:0 0 5px 0;}
 
 .row { clear:both;  line-height:24px;  }
@@ -462,9 +456,9 @@ input[type="submit"], input[type="button"], .btn {border:1px solid #00531b; colo
 	font-size:0.9em;
 	color:#000000;	
 }
-.sportSubNav { margin-bottom: 10px; width: 49%; }
+.sportSubNav { margin-bottom: 15px; width: 20%; }
 .sportSubNav a{ background:#A71930; width: 82%; color:#ffffff; display: block;
-    float: left; font-size: 11px;  padding: 2%; text-decoration: none;  border:1px  solid #000000; }
+    float: left; font-size: 11px;  padding: 2%; text-decoration: none; text-transform: uppercase; border:2px  solid #000000; }
 .sportSubNav a:hover { background:#721120; }
 .sportSubNav a span{ display: block;  text-align:center; font-weight: bold; }
 
@@ -476,7 +470,7 @@ input[type="submit"], input[type="button"], .btn {border:1px solid #00531b; colo
 }
 
 .contentLeft { width:75%;}
-.contentRight { width:22%; }
+.contentRight { width:22%; background:#0CF; height:500px;}
 
 .para{
 	border: 1px solid #0033FF;
@@ -573,37 +567,3 @@ ul.list li{ margin:0; padding:0; list-style-type:decimal; line-height:16px;}
 .errorLogin{height:20px;}
 
 .errorLogin label{width:80%; color:#F00;font-size:10px;}
-/*myaccount*/
-.myAccBG { background:#e8e8e8; border:1px solid #cccccc; padding:2px;  }
-.myaccHeading { margin-bottom:10px; font-size:12px; margin-top:5px; margin-left:3px; font-weight:bold;}
-.myAccBG h2 { background:#3867D8; margin:0 0 10px 0; padding: 3px 0 3px 10px; font-size:12px; font-weight:bold; color:#ffffff; }
-.notes{ background:#99BAF6; padding:10px; border:1px solid #363535; margin:0 0 15px 0; }
-.notes p { margin:0 0 10px 0; padding:0;  font-size:11px; line-height:15px; }
-.set { margin:0 0 10px 0;}
-.profileWrap { margin:0 0 10px 0; border-bottom:1px solid #999;}
-.inputwidth{ width:190px;}
-.selecrwidth { width:196px;}
-.adddheight{ width:70px; }
-.selectGgender { width:120px;}
-.selecrwidth22 { width:220px;}
-.myAccBG label { font-size:12px; font-weight:normal; line-height:17px; display:block;}
-.myAccBG input { font-size:10px;  padding:2px; border:1px solid #383838;}
-.myAccBG select, textarea { border:1px solid #383838; margin:0 0 5px 0; padding:2px }
-.profileWrap h3 {  margin:0; padding: 0; font-size:12px; font-weight:bold; color:#000000;}
-.profileWrap h5 {  margin:5px 0 0 0; padding: 0; font-size:12px; font-weight:bold; color:#000000;}
-.profileImg  { border:1px solid #383838; padding:1px; width:72px; height:72px;}
-.profileImg img { width:70px; height:70px; border:none;}
-.profileWrap a { font-size:12px; margin:5px 0; display:block;}
-ul#terms {  }
-ul#terms li { }
-ul#terms {}
-
-.langueList { background:#ffffff; font-size:11px; color:#000000; height: 136px; overflow: auto; width: 98px; border:1px solid #cccccc; margin:0 5px 0 0; padding:2px;}
-.langueList-sel { background:#ffffff; height: 136px; overflow: auto; width: 98px; border:1px solid #cccccc; padding:2px;}
-.addbtn { width:70px; padding:50px 0 0 0;}
-.set  span{ font-size:12px; margin-top:5px;}
-.addbtn input[type=button] { cursor:pointer;}
-.langueList #set { margin:0 0 5px 0; min-width:200px;}
-#set input[type=checkbox] {margin:0 3px 0 0;}
-.infoBox { background:#FFFFCC; padding:20px; margin:0 0 10px 0; color:Blue; text-align:center; font-size:11px;}
-.msubmitBtn input[type=submit] { padding:5px 20px; }
