@@ -13,6 +13,9 @@
     <script type="text/javascript" src="js/jquery.jsonp-2.1.3.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+
+            if ($.Storage.get("UserName") == null || $.Storage.get("UserName") == "")
+            { window.location.href='login.html'}
             var online = navigator.onLine;    // Detecting the internet connection
             if (online) {
                 // do your stuff

@@ -47,7 +47,8 @@ public class UploadHandler1 : IHttpHandler {
                     destination.Flush();
                 }
 
-
+                context.Response.Write("File Uploaded successfully");
+                context.Response.End(); 
             }
         }
     }
